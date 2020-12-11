@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attack : MonoBehaviour
+public class ataques : MonoBehaviour
 {
 	public float dmgValue = 4;
 	public GameObject throwableObject;
@@ -21,13 +21,13 @@ public class Attack : MonoBehaviour
 
 	// Start is called before the first frame update
 	void Start()
-    {
-        
-    }
+	{
 
-    // Update is called once per frame
-    void Update()
-    {
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
 		if (Input.GetKeyDown(KeyCode.X) && canAttack)
 		{
 			canAttack = false;
@@ -37,9 +37,9 @@ public class Attack : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.V))
 		{
-			GameObject throwableWeapon = Instantiate(throwableObject, transform.position + new Vector3(transform.localScale.x * 0.5f,-0.2f), Quaternion.identity) as GameObject; 
+			GameObject throwableWeapon = Instantiate(throwableObject, transform.position + new Vector3(transform.localScale.x * 0.5f, -0.2f), Quaternion.identity) as GameObject;
 			Vector2 direction = new Vector2(transform.localScale.x, 0);
-			throwableWeapon.GetComponent<ThrowableWeapon>().direction = direction; 
+			throwableWeapon.GetComponent<ThrowableWeapon>().direction = direction;
 			throwableWeapon.name = "ThrowableWeapon";
 		}
 	}
