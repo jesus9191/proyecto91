@@ -95,8 +95,7 @@ public class Ally : MonoBehaviour
 							Jump();
 						else if (randomDecision >= 0.6f && randomDecision < 0.8f)
 							StartCoroutine(Dash());
-						else if (randomDecision >= 0.8f && randomDecision < 0.95f)
-							RangeAttack();
+			
 						else
 							Idle();
 					}

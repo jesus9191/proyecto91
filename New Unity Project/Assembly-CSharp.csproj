@@ -64,6 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
+    <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
+    <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
     <Compile Include="Assets\juego\Animation\Scripts\EndParamBehaviour.cs" />
     <Compile Include="Assets\juego\Animation\Scripts\JumpStateBehaviour.cs" />
     <Compile Include="Assets\juego\Animation\Scripts\PlaySoundBehaviour.cs" />
@@ -78,6 +81,7 @@
     <Compile Include="Assets\juego\Scripts\Player\CharacterController2D.cs" />
     <Compile Include="Assets\juego\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\juego\Scripts\Player\ThrowableWeapon.cs" />
+    <Compile Include="Assets\prefab\TiendaControl.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/DESCARGAS/Programacion de videojuegos/Unity/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
