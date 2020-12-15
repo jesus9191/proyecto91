@@ -81,7 +81,7 @@
     <Compile Include="Assets\juego\Scripts\Player\CharacterController2D.cs" />
     <Compile Include="Assets\juego\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\juego\Scripts\Player\ThrowableWeapon.cs" />
-    <Compile Include="Assets\prefab\TiendaControl.cs" />
+    <Compile Include="Assets\tienda\TiendaControl.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/DESCARGAS/Programacion de videojuegos/Unity/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
